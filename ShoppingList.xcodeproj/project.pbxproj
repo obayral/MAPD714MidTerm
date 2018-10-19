@@ -12,6 +12,8 @@
 		ED55D7E321794AF8005DE1CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED55D7E121794AF8005DE1CB /* Main.storyboard */; };
 		ED55D7E521794B03005DE1CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED55D7E421794B03005DE1CB /* Assets.xcassets */; };
 		ED55D7E821794B03005DE1CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED55D7E621794B03005DE1CB /* LaunchScreen.storyboard */; };
+		ED55D7F221796DA7005DE1CB /* shop.png in Resources */ = {isa = PBXBuildFile; fileRef = ED55D7F121796DA7005DE1CB /* shop.png */; };
+		ED55D7F42179765B005DE1CB /* MyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED55D7F32179765B005DE1CB /* MyList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		ED55D7E421794B03005DE1CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED55D7E721794B03005DE1CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED55D7E921794B03005DE1CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED55D7F121796DA7005DE1CB /* shop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shop.png; path = ../../../../Desktop/shop.png; sourceTree = "<group>"; };
+		ED55D7F32179765B005DE1CB /* MyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +60,10 @@
 			children = (
 				ED55D7DD21794AF8005DE1CB /* AppDelegate.swift */,
 				ED55D7DF21794AF8005DE1CB /* ViewController.swift */,
+				ED55D7F32179765B005DE1CB /* MyList.swift */,
 				ED55D7E121794AF8005DE1CB /* Main.storyboard */,
 				ED55D7E421794B03005DE1CB /* Assets.xcassets */,
+				ED55D7F121796DA7005DE1CB /* shop.png */,
 				ED55D7E621794B03005DE1CB /* LaunchScreen.storyboard */,
 				ED55D7E921794B03005DE1CB /* Info.plist */,
 			);
@@ -123,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED55D7E821794B03005DE1CB /* LaunchScreen.storyboard in Resources */,
+				ED55D7F221796DA7005DE1CB /* shop.png in Resources */,
 				ED55D7E521794B03005DE1CB /* Assets.xcassets in Resources */,
 				ED55D7E321794AF8005DE1CB /* Main.storyboard in Resources */,
 			);
@@ -137,6 +144,7 @@
 			files = (
 				ED55D7E021794AF8005DE1CB /* ViewController.swift in Sources */,
 				ED55D7DE21794AF8005DE1CB /* AppDelegate.swift in Sources */,
+				ED55D7F42179765B005DE1CB /* MyList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
